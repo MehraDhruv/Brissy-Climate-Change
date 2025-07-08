@@ -12,7 +12,9 @@
 
 ## 📘 Overview
 
-**Brissy Climate Connect** is a responsive, user-centered web project developed as part of the **2008ICT: Design Thinking in IT** course at Griffith University. It serves as a prototype for a climate awareness website tailored for the citizens of Brisbane. The project incorporates accessibility, visual storytelling, and engaging interactions to spread awareness and motivate positive climate action.
+**Brissy** Climate Connect is a responsive, user-centered web prototype created for the **2008ICT: Design Thinking in IT** course at Griffith University. Designed for the Brisbane City Council, the project raises local climate change awareness through engaging, accessible, and educational digital experiences.
+
+Built using the Design Thinking methodology, the platform includes interactive features like “Take Action” tips and a donation page to promote real-world environmental involvement. It combines responsive web design, user research, and visual storytelling to inform and empower Brisbane citizens toward sustainable action.
 
 ---
 
@@ -52,23 +54,23 @@ The project followed a **Design Thinking** approach:
 ## 📸 Visuals
 
 ### 🖥️ Homepage  
-![Homepage](https://i.imgur.com/YOUR_IMAGE_ID1.png)
+![Homepage](images/Homepage.png)
 
 ### 💡 Take Action Page  
-![Take Action](https://i.imgur.com/YOUR_IMAGE_ID2.png)
+![Take Action](images/TakeActionsPage.png)
 
 ### 💸 Donate for Climate Wealth  
-![Donate Page](https://i.imgur.com/YOUR_IMAGE_ID3.png)
+![Donate Page](images/DonatePage.png)
 
 ---
 
 ## 💻 Features
 
-- 🔁 **Responsive Design** – Optimized for desktop and mobile.
-- 🧩 **Modular Layout** – Easily extendable structure for future updates.
-- 🌱 **Call to Actions** – Sections encouraging eco-actions and donations.
-- 📊 **Educational Content** – Localized facts and stats for Brisbane’s climate.
-- 💬 **User Feedback Loop** – Integrated during design testing phase.
+- **Responsive Design** – Optimized for desktop and mobile.
+- **Modular Layout** – Easily extendable structure for future updates.
+- **Call to Actions** – Sections encouraging eco-actions and donations.
+- **Educational Content** – Localized facts and stats for Brisbane’s climate.
+- **User Feedback Loop** – Integrated during design testing phase.
 
 ---
 
@@ -79,14 +81,12 @@ The project followed a **Design Thinking** approach:
 
 ---
 
----
-
 ## 📈 Future Improvements
 
-- 🔐 Add user authentication for contribution tracking.
-- 💬 Include a forum for eco-discussion.
-- 🛰️ Integrate live environmental data using APIs (e.g., AQI, temperature).
-- 🛒 Add a climate-positive store for sustainable products.
+- Add user authentication for contribution tracking.
+- Include a forum for eco-discussion.
+- Integrate live environmental data using APIs (e.g., AQI, temperature).
+- Add a climate-positive store for sustainable products.
 
 ---
 
