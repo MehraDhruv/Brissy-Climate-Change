@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRISSY CLIMATE CHANGE</title>
+    <link href="../css/style.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container">
+     <!-- Centres and limits the page width(for desktop layout) -->
+    <header>
+        <div class="logo-section">
+            <div class="logo">
+                <img src="../images/BrisbaneCity_logo.png" alt="BRISSY CLIMATE CHANGE" class="logo">
+              </div>
+            <h2>BRISSY CLIMATE CHANGE</h2>
+        </div>
+        <div class="subscribe">
+            <input type="text" placeholder="email address"/>
+            <button>JOIN</button>
+            <nav class="navbar">
+              <div class="nav-toggle" id="navToggle">&#9776;</div> <!-- Burger Icon -->
+                  <div class="nav-links" id="navLinks">
+                  <a href = './index.html'>Home</a>
+                  <a href = './ClimateChange.html'>ClimateChange</a>
+                  <a href = './Council.html'>What is Council Doing</a>
+                  <a href = './TakeActions.html'>TakeActions</a>
+                  <a href = './Event.html'>Events</a>
+                  <a href = './Support.html'>Support Us</a> 
+                  <a href = './FAQ.html'>FAQ</a>
+                  <a href = './AboutUs.html'>About Us</a>
+              </div>
+              </nav>
+              <script>
+                  const toggle = document.getElementById('navToggle');
+                  const navLinks = document.getElementById('navLinks');
+                
+                  toggle.addEventListener('click', () => {
+                    navLinks.classList.toggle('show');
+                  });
+                </script>
+        </div>
+      </header>
+
+        <section id="faq">
+            <div class="content">
+              <h1>Frequently Asked Questions ❓</h1>
+              <p>Got questions about climate action in Brisbane? We’ve got answers. Explore the most common queries below.</p><br>
+              
+              <div class="faq-item">
+                <h3>🌏 What is Brissy Climate Change all about?</h3>
+                <p>Brissy Climate Change is a digital awareness platform created to support Brisbane City Council’s climate initiatives. It educates residents, highlights Council projects, and empowers communities to take climate-positive actions.</p>
+              </div>
+          
+              <div class="faq-item">
+                <h3>🏛️ What is Brisbane City Council doing to address climate change?</h3>
+                <p>The Council has committed to a science-based strategy focused on reducing carbon emissions and building citywide resilience. Projects include solar expansion, electric transport, tree planting, green infrastructure, and community education.</p>
+              </div>
+          
+              <div class="faq-item">
+                <h3>🚲 How can I personally help reduce Brisbane’s emissions?</h3>
+                <p>You can contribute by switching to public or active transport, reducing waste, installing solar panels, conserving water, and supporting local climate-friendly initiatives. Check the “<a href="TakeActions.html">Take Action</a>” page for practical tips!</p>
+              </div>
+          
+              <div class="faq-item">
+                <h3>📅 Are there events or workshops I can attend?</h3>
+                <p>Yes! Brisbane hosts regular sustainability events, tree planting days, workshops, and speaker panels. Visit the “<a href="Event.html">Events</a>” page for current listings and registration links.</p>
+              </div>
+          
+              <div class="faq-item">
+                <h3>💸 Are there grants or incentives for households?</h3>
+                <p>Absolutely. Brisbane City Council offers Green Heart Grants, compost rebates, and energy-efficiency support for eligible residents. Check the “<a href='Support.html'>Support Us</a>” section to learn more.</p>
+              </div>
+          
+              <div class="faq-item">
+                <h3>🧹 Can I volunteer for climate-related activities?</h3>
+                <p>Yes! Volunteering opportunities include environmental cleanups, community gardens, native tree planting, and climate education campaigns. Follow our updates or join a program via the “<a href='#join'>Join</a>” button above.</p>
+              </div>
+          
+              <div class="faq-item">
+                <h3>📍Where can I learn more about my suburb’s climate efforts?</h3>
+                <p>Brisbane offers local climate data, tree canopy maps, and project dashboards by suburb. Use the <a href="#">suburb map tool</a> in the “What is Council Doing” section to explore local progress and plans.</p>
+              </div>
+          
+              <div class="faq-item">
+                <h3>📨 Who can I contact for more information?</h3>
+                <p>If you have questions, suggestions, or want to get more involved, you can reach out via our contact form or email us at <a href="mailto:climateaction@brisbane.qld.gov.au">climateaction@brisbane.qld.gov.au</a>.</p>
+              </div>
+            </div>
+          </section>
+          
+</div>
+</body>
+</html>
