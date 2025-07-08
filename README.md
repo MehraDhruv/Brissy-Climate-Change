@@ -1,141 +1,103 @@
-# Brissy Climate Change 🌏🌱
+# 🌏 Brissy Climate Connect
 
-**Brissy Climate Change** is an interactive, educational, and action-driven website designed to raise awareness about climate change impacts specific to Brisbane, Australia.  
-This site was developed as part of a **Design Thinking** project to engage citizens, promote climate action, and connect the community with resources and events.
+![Brissy Climate Connect](images/BrisbaneCity_logo.png) 
 
----
+![License](https://img.shields.io/badge/license-GU-red.svg)
+![Status](https://img.shields.io/badge/status-Completed-blue.svg)
+![Design Thinking](https://img.shields.io/badge/methodology-Design_Thinking-orange.svg)
 
-## 🌟 Purpose
-
-This website was developed for the **2008ICT: Design Thinking in IT** course. Its objectives include:
-
-- Educating Brisbane locals on the impacts of climate change.  
-- Inspiring individual and community-level action.  
-- Showcasing upcoming events and donation options.  
-- Demonstrating design thinking principles through digital interaction.
+> 🌿 An interactive climate change awareness website designed for Brisbane City Council — built using design thinking to inform, engage, and empower citizens to take action on environmental sustainability.
 
 ---
 
-## 🧩 Features
+## 📘 Overview
 
-- **Homepage**: Core climate messages and easy navigation.  
-- **Take Action Page**: Interactive layout with icons and animations representing lifestyle changes like conserving energy, using public transport, reducing plastic, and more.  
-- **Donate for Climate Wealth**: A dedicated donation section integrated into the site’s main menu.  
-- **Events & Community**: Highlights Brisbane-specific eco-events and campaigns.  
-- **Visual Appeal**: Uses animated elements, icons, and modern UI styling.  
-- **Prototyping Process**: Includes low-fidelity sketches and user journey development.
+**Brissy Climate Connect** is a responsive, user-centered web project developed as part of the **2008ICT: Design Thinking in IT** course at Griffith University. It serves as a prototype for a climate awareness website tailored for the citizens of Brisbane. The project incorporates accessibility, visual storytelling, and engaging interactions to spread awareness and motivate positive climate action.
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 Objectives
 
-- **Frontend**: HTML5, CSS3 (with animations), JavaScript  
-- **Design Tools**: Figma (for wireframes & low-fi prototypes)  
-- **[Optional]**: React / Bootstrap / WordPress (if expanded)
-
----
-
-## 📣 How to Quickly Explain the Code
-
-When showcasing or submitting the website, you can explain the code like this:
-
-- **HTML Files**: Each page (`index.html`, `take-actions.html`, `donate.html`) contains the layout and content structure using semantic HTML5 tags.  
-- **CSS (`style.css`)**: Styles the pages, adds layout responsiveness, and includes animations for icons and buttons.  
-- **JavaScript (`scripts.js`)**: Enhances user interaction (e.g., menu toggles, form validations, or future dynamic features).  
-- **Assets Folder**: Contains all supporting files like icons, images, and reusable design elements.  
-- **Navigation**: Built with simple internal links (`<a href="...">`) across a shared navbar included in each page.
-
-> 🔹 *Each page has its own focus, but they all follow a consistent structure. The styling is handled in one central CSS file, and any interactivity is managed in the JS file. The whole project can be run directly in a browser without setup.*
+- Raise awareness about climate change and its local impact on Brisbane.
+- Motivate community-driven action and climate-conscious behavior.
+- Provide a platform for education, donations, and eco-friendly initiatives.
 
 ---
 
-## 📈 Future Enhancements
+## 🛠️ Built With
 
-- Connect to real-time climate data or news feeds.  
-- Add backend for managing event listings and donation tracking.  
-- Convert into a React app or WordPress plugin for scalability.  
-- Improve accessibility (ARIA, contrast, screen reader support).  
-- Add a blog or newsfeed section.
+- **HTML5 / CSS3**
+- **JavaScript**
+- **Figma** (for wireframes and prototyping)
+- **Canva / Adobe XD** (for visual assets)
+- **ELF framework** (for front-end logic in coursework)
+- **Design Thinking** (IDEO 5-step methodology)
 
-## 📈 Future Enhancements
+---
 
-- Connect to real-time climate data or news feeds.  
-- Add backend for managing event listings and donation tracking.  
-- Convert into a React app or WordPress plugin for scalability.  
-- Improve accessibility (ARIA, contrast, screen reader support).  
-- Add a blog or newsfeed section.
+## 🧠 Methodology
 
-## HTML
+The project followed a **Design Thinking** approach:
 
-- Uses semantic tags: `<header>`, `<main>`, `<section>`, `<footer>`, `<nav>`
-- Includes comment blocks to organize structure:
-  ```html
-<!-- === VLAN Status Dashboard === -->
-CSS
-Structured with comment blocks for each section:
+| Phase | Description |
+|-------|-------------|
+| **Empathize** | Researched Brisbane's climate issues and surveyed target users. |
+| **Define** | Identified the need for localized, actionable climate awareness. |
+| **Ideate** | Brainstormed website structure, user goals, and interactive content. |
+| **Prototype** | Designed low-fidelity wireframes using Figma and paper sketches. |
+| **Test** | Collected user feedback and iterated on design and content.
 
- ## CSS
+---
 
-/* === Layout === */
+## 📸 Visuals
 
-/* === Color Theme === */
+### 🖥️ Homepage  
+![Homepage](https://i.imgur.com/YOUR_IMAGE_ID1.png)
 
-/* === Device Cards === */
+### 💡 Take Action Page  
+![Take Action](https://i.imgur.com/YOUR_IMAGE_ID2.png)
 
-Uses custom properties:
+### 💸 Donate for Climate Wealth  
+![Donate Page](https://i.imgur.com/YOUR_IMAGE_ID3.png)
 
- ## CSS
+---
 
-:root {
-  --primary-color: #0055aa;
+## 💻 Features
 
-  --accent-color: #ffaa00;
-}
+- 🔁 **Responsive Design** – Optimized for desktop and mobile.
+- 🧩 **Modular Layout** – Easily extendable structure for future updates.
+- 🌱 **Call to Actions** – Sections encouraging eco-actions and donations.
+- 📊 **Educational Content** – Localized facts and stats for Brisbane’s climate.
+- 💬 **User Feedback Loop** – Integrated during design testing phase.
 
-Follows BEM naming convention for maintainable classes:
- 
-Example: .device-card__status--online
+---
+
+## 👥 Team & Roles
+
+- **Dhruv Mehra** – UX Designer | Developer | Researcher  
+  > *Led the UX ideation, built and styled the site, analyzed user feedback, and coordinated the design thinking report.*
+
+---
+
+---
+
+## 📈 Future Improvements
+
+- 🔐 Add user authentication for contribution tracking.
+- 💬 Include a forum for eco-discussion.
+- 🛰️ Integrate live environmental data using APIs (e.g., AQI, temperature).
+- 🛒 Add a climate-positive store for sustainable products.
+
+---
+
+## 🤝 Acknowledgements
+
+- Brisbane City Council (conceptual commissioner)
+- Griffith University - 2008ICT Course Team
+- Classmates for peer feedback and evaluation
+
+---
+
+> “We don't inherit the Earth from our ancestors, we borrow it from our children.” – Native American Proverb
 
 
- 
-## 🔧 Maintenance & Extension Guide
-
-To Add New Features:
-
-New HTML Pages: Duplicate index.html, link the same style.css
- 
-New Styles: Add new section comments in style.css, follow naming convention
- 
-New Images/Assets: Place inside assets/images/ or assets/icons/
- 
-Future Enhancements (Optional):
-
-JavaScript for dynamic status updates or modals
- 
-Interactive elements (e.g., VLAN selection)
- 
-Dark mode toggle with CSS variables
- 
-Backend integration to fetch live network data
- 
-## 🧪 Testing
-
-✅ Validated HTML using W3C Validator
- 
-✅ CSS linted for formatting consistency
- 
-✅ Tested in:
- 
-Chrome
- 
-Firefox
- 
-Microsoft Edge
- 
-### 📄 Versioning
-
-Semantic versioning used:
- 
-v1.0.0 — Initial stable release
- 
-All updates tracked in CHANGELOG.md
